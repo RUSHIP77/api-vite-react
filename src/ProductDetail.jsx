@@ -31,6 +31,11 @@ function ProductDetail() {
   return (
     <div className="product-detail-card">
       <h2>PRODUCT DETAILS</h2>
+
+      <div className="product-detail-row">
+        <p>ID: {product.id}</p>
+      </div>
+
       <div className="product-detail-row">
         <p>Name: {product.title}</p>
       </div>
@@ -40,6 +45,7 @@ function ProductDetail() {
       <div className="product-detail-row">
         <p>Price: {product.price}</p>
       </div>
+
       <div className="product-detail-row">
         <p>Discount Percentage: {product.discountPercentage}</p>
       </div>

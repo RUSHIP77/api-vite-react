@@ -17,7 +17,7 @@
   
   .product-detail-card {
     border: 1px solid black;
-    border-radius: 20px;
+    border-radius: 56px;
     background: linear-gradient(45deg, #f0f0f0, #c0c0c0);
     transition: transform 0.2s ease-in-out, background 0.2s, color 0.2s;
     display: flex;
